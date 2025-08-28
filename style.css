@@ -1,0 +1,197 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #cce7f0;
+}
+
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height:450px;
+    position: relative;
+    left: 500px;
+    top: 50px;
+    background-color: #e0ecff;
+}
+
+#heading{
+    height: 70px;
+    text-transform: uppercase;
+    background-color: #00bcd4;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#h4{
+    height: 10px;
+    width: 260px;
+    text-transform: uppercase;
+    background-color: #7fb1b8;
+    color: #ffffff;
+    position: relative;
+    bottom: -27px;
+    border-radius: 20px;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myclass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -30px;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #f0f4f8;
+    color: #000;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+}
+
+#btn1{
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 130px;
+    height: 30px;
+    background-color: #7fb1b8;
+    color: black;
+    border: 1px solid #ccc;
+    position: relative;
+    bottom: 17px;
+    text-transform: uppercase;
+}
+
+#btn2{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 130px;
+    height: 30px;
+    color: black;
+    background-color: transparent;
+    border: 0px solid transparent;
+    position: relative;
+    bottom: 9px;
+    left: 85px;
+    text-transform: uppercase;
+}
+
+#check1{
+    position: relative;
+    left: 110px;
+    bottom: 6px;
+}
+
+#check2{
+    position: relative;
+    left: 110px;
+    bottom: 74px;
+}
+
+p{
+    text-transform: capitalize;
+    font-weight: bold;
+    position: relative;
+    bottom: 43px;
+    right: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.form2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height:300px;
+    position: relative;
+    left: 500px;
+    top: 70px;
+    background-color: #e0ecff;
+    display: none;
+}
+
+
+#btn3{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 130px;
+    height: 30px;
+    color: black;
+    background-color: transparent;
+    border: 0px solid transparent;
+    position: relative;
+    bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+.loginInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -10px;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #f0f4f8;
+    color: #000;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+}
+
+
+#h42{
+    height: 10px;
+    width: 260px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    background-color: #7fb1b8;
+    color: #ffffff;
+    position: relative;
+    bottom: 0px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#check3{
+    position: relative;
+    left: 110px;
+    bottom: 35px;
+}
